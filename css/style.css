@@ -1,0 +1,106 @@
+    /* 1. ESTILOS GERAIS */
+
+body {
+
+    font-family: 'Roboto', 'Segoe UI', sans-serif; /* Fonte moderna e legível */
+    margin: 0;
+    background-color: #f8f9fa; /* Fundo muito claro */
+    
+}
+
+ /* 2. ESTILOS DA SEÇÃO HERO - O FOCO DO ESTUDO */
+
+.hero-section {
+
+    background: linear-gradient(45deg, #141313, #cbcde2);
+    color: #ffffff;  /* Texto branco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+ 
+/* 3. O CONTAINER DO CONTEÚDO */
+
+.hero-content {
+
+    text-align: center;  /* Centraliza todo o texto e o botão */
+    max-width: 700px;  /* Limita a largura máxima do texto para melhor legibilidade */
+
+}
+
+ 
+/* 4. ESTILOS DE TIPOGRAFIA - HIERARQUIA VISUAL */
+
+.hero-title {
+
+    font-size: 3.5rem;  /* 56px */
+    font-weight: 700;
+    line-height: 1.2;  /* Espaçamento entre as linhas do título, caso ele quebre */
+    margin-top: 0;
+    margin-bottom: 20px;  /* Espaço abaixo do título */
+
+}
+
+ 
+
+.hero-subtitle {
+
+    font-size: 1.25rem;  /* 20px */
+    font-weight: 300;  /* Peso mais leve para o texto de suporte */
+    line-height: 1.6;
+    margin-bottom: 40px;  /* Espaço maior para separar o texto do botão */
+    color: #e9ecef;
+
+}
+  
+
+/* 5. ESTILOS DO BOTÃO (CALL-TO-ACTION) */
+
+.hero-button1, .hero-button2 {
+
+    background-color: #007bff;  /* Cor de destaque (azul) */
+    color: #ffffff;
+    border-radius: 5px;  /* Cantos arredondados */
+    text-decoration: none;  /* Remove o sublinhado */
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s, transform 0.2s;
+
+}
+
+.hero-button2 {
+
+    background-color: none;  /* Cor de destaque (azul) */
+    color: #ffffff;
+    border-radius: 5px;  /* Cantos arredondados */
+    text-decoration: none;  /* Remove o sublinhado */
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s, transform 0.2s;
+    border: solid;
+}
+
+ 
+/* Efeito de hover para o botão */
+
+.hero-button1:hover {
+
+    background-color: #0056b3;  /* Um tom de azul mais escuro */
+    transform: translateY(-2px);
+
+}
+
+.hero-button2:hover {
+
+    background-color: #0056b3;  /* Um tom de azul mais escuro */
+    transform: translateY(-2px);
+
+}
+
+
